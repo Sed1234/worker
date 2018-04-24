@@ -110,6 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Company.h" />
+    <ClInclude Include="worker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Company.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="worker.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
